@@ -25,7 +25,8 @@ export default {
           .then((data) => {
             resolve(data.data)
             console.log(data.data)
-            this.commit('user/setToken', data.data.data.token)
+            // this.commit('user/setToken', data.data.data.token)
+            this.commit('user/setToken', data.token)
           })
           .catch((err) => {
             reject(err)
