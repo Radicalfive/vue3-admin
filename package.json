@@ -13,6 +13,7 @@
     "@commitlint/config-conventional": "^16.2.4",
     "core-js": "^3.8.3",
     "cz-customizable": "^6.3.0",
+    "element-plus": "^1.0.2-beta.28",
     "husky": "^7.0.4",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
@@ -33,7 +34,8 @@
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-vue": "^8.0.3",
     "sass": "^1.32.7",
-    "sass-loader": "^12.0.0"
+    "sass-loader": "^12.0.0",
+    "vue-cli-plugin-element-plus": "~0.0.13"
   },
   "config": {
     "commitizen": {
