@@ -1,4 +1,4 @@
-import variables from '@/styles/css/variables.module.scss'
+// import variables from '@/styles/css/variables.module.scss'
 import { MAIN_COLOR } from '@/constant'
 import { getItem } from '@/utils/storage'
 import { generateColors } from '@/utils/theme'
@@ -19,6 +19,7 @@ const getters = {
     }
   },
   sidebarOpened: (state) => state.app.sidebarOpened,
+  language: (state) => state.app.language,
   mainColor: state => state.theme.mainColor
 }
 export default getters
