@@ -6,6 +6,7 @@
     transition: margin-left 0.28s;
     margin-left: $sideBarWidth;
     position: relative;
+    transition: margin-left #{$sideBarDuration};
   }
 
   .sidebar-container {
@@ -19,7 +20,8 @@
     transition: width 0.28s;
     z-index: 1001;
     overflow: hidden;
-
+    transition: width #{$sideBarDuration};
+    
     // 重置 element-plus 的css
     .horizontal-collapse-transition {
       transition: 0s width ease-in-out, 0s padding-left ease-in-out, 0s padding-right ease-in-out;
