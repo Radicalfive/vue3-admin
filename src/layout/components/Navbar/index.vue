@@ -3,7 +3,8 @@
     <hamburger class="hamburger-container" />
     <breadcrumb class="breadcrumb-container" />
     <div class="right-menu">
-      <theme-picker class="right-menu-item hover-effect"></theme-picker>
+      <header-search class="right-menu-item hover-effect" />
+      <theme-picker class="right-menu-item hover-effect" />
       <lang-select class="right-menu-item hover-effect" />
       <screenfull class="right-menu-item hover-effect" />
       <!-- 头像 -->
@@ -39,6 +40,7 @@ import Breadcrumb from '@/components/Breadcrumb'
 import LangSelect from '@/components/LangSelect'
 import ThemePicker from '@/components/ThemeSelect/ThemeSelect'
 import Screenfull from '@/components/Screenfull'
+import HeaderSearch from '@/components/HeaderSearch'
 
 // 退出登录处理
 const store = useStore()
