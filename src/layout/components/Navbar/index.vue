@@ -36,7 +36,7 @@ import { useStore } from 'vuex'
 import Hamburger from '@/components/Hamburger'
 import Breadcrumb from '@/components/Breadcrumb'
 import LangSelect from '@/components/LangSelect'
-import ThemePicker from '@/components/ThemeSelect'
+import ThemePicker from '@/components/ThemeSelect/ThemeSelect'
 
 // 退出登录处理
 const store = useStore()
