@@ -1,9 +1,14 @@
 <template>
-  <h2>ProjectCard</h2>
+  <div class="">
+    <my-avatar :image="$store.getters.userInfo.avatar" :height="'100px'" :width="'100px'" :hoverable="false">
+      <div>Hello</div>
+      {{ $store.getters.userInfo.title }}
+    </my-avatar>
+  </div>
 </template>
 
-<script>
-export default {}
+<script setup>
+import MyAvatar from '@/components/MyAvatar'
 </script>
 
-<style></style>
+<style lang="scss" scoped></style>
