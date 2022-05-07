@@ -90,10 +90,10 @@ export default {
     feature: 'Feature',
     chapter: 'Chapter',
     author: 'Author',
-    name: 'Sunday',
-    job: 'A front-end development program',
+    name: 'radical',
+    job: 'Only action can remove all uneasiness',
     Introduction:
-      'A senior technical expert, once worked in a domestic first-line Internet company, and has coordinated multiple large-scale projects with more than tens of millions of users. Committed to researching big front-end technology, he has been invited to participate in domestic front-end technology sharing sessions many times, such as: Google China Technology Sharing Session in 2018.'
+      'If you have seen the sky and the sea, how can you stay within the walls?'
   },
   userInfo: {
     print: 'Print',
