@@ -42,6 +42,13 @@ const generateData = (results) => {
       }
       userInfo[USER_RELATIONS[key]] = item[key]
     })
+    Object.keys(item).forEach((key) => {
+      if (USER_RELATIONS[key] === 'openTime') {
+        userInfo[USER_RELATIONS[key]] = formatDate(item[key])
+        return
+      }
+      userInfo[USER_RELATIONS[key]] = item[key]
+    })
     arr.push(userInfo)
   })
   return arr
